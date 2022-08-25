@@ -1,7 +1,0 @@
-ui\pages\WebElements.class
-ui\runners\UIRunner.class
-utilities\ConfigReader.class
-utilities\Log.class
-ui\stepdef\TC01.class
-utilities\Driver.class
-utilities\ReusableMethods.class
