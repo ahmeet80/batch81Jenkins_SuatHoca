@@ -4,6 +4,7 @@ import com.github.javafaker.Faker;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import ui.pages.WebElements;
 import utilities.Driver;
 import utilities.Log;
@@ -15,6 +16,7 @@ public class TC01 extends WebElements {
 
     Faker faker=new Faker();
     ReusableMethods methods=new ReusableMethods();
+
 
 String mainurl;
     @Given("Navigate to url {string}")
@@ -73,9 +75,11 @@ String mainurl;
     public void select_checkbox(String string) throws InterruptedException {
 
 
-        Thread.sleep(1000);
+      //  Thread.sleep(1000);
+        ReusableMethods.waitForVisibility(By.id("newsletter"),3);
         selectNewsLetterCheck();
-        Thread.sleep(1000);
+        //Thread.sleep(1000);
+        ReusableMethods.waitForVisibility(By.id("optin"),3);
         selectUniformOptions();
         Log.info("check kutuları tıklandı");
     }
