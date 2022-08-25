@@ -1,0 +1,303 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-25T18:13:07.616Z",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "user-register;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10075784300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to url \"http://automationexercise.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationexercise.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ui.stepdef.TC01.navigate_to_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18981800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify that home page is visible successfully",
+            "match": {
+              "location": "ui.stepdef.TC01.verify_that_home_page_is_visible_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1681068500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on \"Signup / Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Signup / Login\"",
+                  "offset": 9
+                }
+              ],
+              "location": "ui.stepdef.TC01.click_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76924500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify \"New User Signup!\" is visible",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"New User Signup!\"",
+                  "offset": 7
+                }
+              ],
+              "location": "ui.stepdef.TC01.verify_is_visible(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1319251200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter name and email address",
+            "match": {
+              "location": "ui.stepdef.TC01.enter_name_and_email_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5762690700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click \"Signup\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Signup\"",
+                  "offset": 6
+                }
+              ],
+              "location": "ui.stepdef.TC01.click_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41959300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify that \"ENTER ACCOUNT INFORMATION\" is visible",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ENTER ACCOUNT INFORMATION\"",
+                  "offset": 12
+                }
+              ],
+              "location": "ui.stepdef.TC01.verify_that_is_visible(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 959744600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Fill details: Title, Name, Email, Password, Date of birth",
+            "match": {
+              "location": "ui.stepdef.TC01.fill_details_title_name_email_password_date_of_birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 372644700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Select checkbox \"Sign up for our newsletter!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign up for our newsletter!\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ui.stepdef.TC01.select_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107895100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Select checkbox \"Receive special offers from our partners!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Receive special offers from our partners!\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ui.stepdef.TC01.select_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1700259900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number",
+            "match": {
+              "location": "ui.stepdef.TC01.fill_details_first_name_last_name_company_address_address2_country_state_city_zipcode_mobile_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4513747200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click \"Create Account button\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create Account button\"",
+                  "offset": 6
+                }
+              ],
+              "location": "ui.stepdef.TC01.click(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99905300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify that this \"ACCOUNT CREATED!\" is visible",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ACCOUNT CREATED!\"",
+                  "offset": 17
+                }
+              ],
+              "location": "ui.stepdef.TC01.verify_that_this_is_visible(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18211184400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click that \"Continue\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Continue\"",
+                  "offset": 11
+                }
+              ],
+              "location": "ui.stepdef.TC01.click_that_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48953400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify that Logged in as username is visible",
+            "match": {
+              "location": "ui.stepdef.TC01.verify_that_logged_in_as_username_is_visible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2742395700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click Delete Account button",
+            "match": {
+              "location": "ui.stepdef.TC01.click_delete_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3997900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify that \"ACCOUNT DELETED!\" is visible and click \u0027Continue\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ACCOUNT DELETED!\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\u0027Continue\u0027",
+                  "offset": 52
+                }
+              ],
+              "location": "ui.stepdef.TC01.verify_that_is_visible_and_click_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@a"
+          }
+        ]
+      }
+    ],
+    "name": "User_Register",
+    "description": "",
+    "id": "user-register",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/uiFeatures/TC01UserRegister.feature",
+    "tags": []
+  }
+]
