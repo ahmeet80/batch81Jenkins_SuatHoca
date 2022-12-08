@@ -3,9 +3,11 @@ package ui.pages;
 import com.github.javafaker.Faker;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class WebElements {
 
@@ -141,6 +143,8 @@ public class WebElements {
     }
 
     public void createAccount(){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView();", driver.findElement(createAccountButton));
         driver.findElement(createAccountButton).click();
     }
 
@@ -157,6 +161,6 @@ public class WebElements {
 
     public void deleteAccount(){
         driver.findElement(deleteAccountButton).click();
-        driver.findElement(deleteOnayButton).click();
+       // driver.findElement(deleteOnayButton).click();
     }
 }
